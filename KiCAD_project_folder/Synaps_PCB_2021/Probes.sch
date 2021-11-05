@@ -43,10 +43,10 @@ F8 "Probe3_SDO" O L 7000 1950 50
 F9 "Probe4_SDO" O L 7000 2350 50 
 F10 "Probe_SCK" I L 7000 2700 50 
 $EndSheet
-Text HLabel 1600 1400 0    50   Input ~ 0
+Text HLabel 3450 2500 0    50   Input ~ 0
 Probe_Select
-Text HLabel 1600 1600 0    50   Output ~ 0
+Text HLabel 3450 2700 0    50   Output ~ 0
 SDO
-Text HLabel 1550 2300 0    50   Input ~ 0
+Text HLabel 3400 3400 0    50   Input ~ 0
 SCK
 $EndSCHEMATC
