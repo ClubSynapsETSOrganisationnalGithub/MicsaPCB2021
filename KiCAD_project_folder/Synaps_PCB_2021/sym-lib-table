@@ -1,5 +1,2 @@
 (sym_lib_table
-  (lib (name 2021-11-05_00-54-21)(type Legacy)(uri ${PROJECT_PATH}/Project_specific_library/ul_LTC2452ITS8-TRMPBF/KiCAD/2021-11-05_00-54-21/2021-11-05_00-54-21.lib)(options "")(descr ""))
-  (lib (name 2021-11-05_00-56-22)(type Legacy)(uri ${PROJECT_PATH}/Project_specific_library/ul_BHI260AB/KiCAD/2021-11-05_00-56-22/2021-11-05_00-56-22.lib)(options "")(descr ""))
-  (lib (name 2021-11-05_01-01-14)(type Legacy)(uri ${PROJECT_PATH}/Project_specific_library/ul_MAX77680AEWV-/KiCAD/2021-11-05_01-01-14/2021-11-05_01-01-14.lib)(options "")(descr ""))
 )
