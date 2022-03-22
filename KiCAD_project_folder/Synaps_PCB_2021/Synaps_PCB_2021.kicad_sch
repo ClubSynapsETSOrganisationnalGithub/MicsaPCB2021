@@ -102,30 +102,6 @@
     (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-0000608d2138"
       (reference "#PWR02") (unit 1) (value "GNDREF") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ad930d"
-      (reference "#PWR03") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b9ca49"
-      (reference "#PWR04") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060be7cce"
-      (reference "#PWR05") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b8534c"
-      (reference "#PWR06") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b7d023"
-      (reference "#PWR07") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060abf9b6"
-      (reference "#PWR08") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ac56f1"
-      (reference "#PWR09") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ac5e7a"
-      (reference "#PWR010") (unit 1) (value "GNDREF") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-0000604d9e52"
       (reference "#PWR011") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -357,29 +333,8 @@
     (path "/00000000-0000-0000-0000-0000604b51e6/00000000-0000-0000-0000-000060abfaac/00000000-0000-0000-0000-000060ab518f"
       (reference "#PWR087") (unit 1) (value "GNDREF") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ad3fe9"
-      (reference "C1") (unit 1) (value "2.2uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b81a6d"
-      (reference "C2") (unit 1) (value "10uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b21217"
-      (reference "C3") (unit 1) (value "2.2uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060aee1f2"
-      (reference "C4") (unit 1) (value "0.1uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b37c3d"
-      (reference "C5") (unit 1) (value "2 x 10uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060abebd9"
-      (reference "C6") (unit 1) (value "2.2uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ac3cb6"
-      (reference "C7") (unit 1) (value "10uF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060ac42e6"
-      (reference "C8") (unit 1) (value "22uF") (footprint "")
+    (path "/00000000-0000-0000-0000-0000604af200/85e4e9f4-6434-4e3c-acba-4c3d533d5298"
+      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-0000604d8de5"
       (reference "C9") (unit 1) (value "TBD") (footprint "")
@@ -534,26 +489,11 @@
     (path "/00000000-0000-0000-0000-0000604b51e6/00000000-0000-0000-0000-000060abfaac/00000000-0000-0000-0000-000060ad5e4e"
       (reference "C59") (unit 1) (value "0.1uF") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060bae6a8"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060bad560"
-      (reference "D2") (unit 1) (value "LED") (footprint "")
+    (path "/00000000-0000-0000-0000-0000604af200/c3c59c29-0795-4c2a-bc70-f9fef44675e8"
+      (reference "C?") (unit 1) (value "CAP") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060777346"
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060b16db5"
-      (reference "L1") (unit 1) (value "o.47uH") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060bbda15"
-      (reference "R1") (unit 1) (value "R_US") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060be7209"
-      (reference "R2") (unit 1) (value "R_US") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060bc38a5"
-      (reference "R3") (unit 1) (value "R_US") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-0000604d3665"
       (reference "R4") (unit 1) (value "TBD") (footprint "")
@@ -570,8 +510,20 @@
     (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-000060515fe7"
       (reference "R8") (unit 1) (value "100") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604af200/75a5732f-a7ea-4ba9-b499-ac9629908694"
-      (reference "U1") (unit 1) (value "MAX77680AEWV+") (footprint "21-100047A_W302H2+1_MXM")
+    (path "/00000000-0000-0000-0000-0000604af200/13c63bdd-8124-498f-a41a-0d57f55b9907"
+      (reference "TP1") (unit 1) (value "TPCC1") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/0df90cb8-4035-4162-8882-42ab4185c510"
+      (reference "TP2") (unit 1) (value "TPCC2") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/f2bc3a59-6f4f-4052-bec0-b11fbff930ce"
+      (reference "TP3") (unit 1) (value "TPCDN") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/261e02a8-98ca-4f9c-a3da-0ed483e591a5"
+      (reference "TP4") (unit 1) (value "TPCDP") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/37a6d19f-ad28-4419-a187-a0f9719d7405"
+      (reference "U1") (unit 1) (value "MAX14748BEWW+") (footprint "21-100122_W542C3+1_MXM")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-00006184adba"
       (reference "U2") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
