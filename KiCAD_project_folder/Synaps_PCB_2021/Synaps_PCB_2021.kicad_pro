@@ -343,6 +343,22 @@
     [
       "00000000-0000-0000-0000-000060abfaac",
       "Probes_2"
+    ],
+    [
+      "2ee40cc8-e059-4bf6-82ce-1cade27551a9",
+      "Inertia Measurement Unit"
+    ],
+    [
+      "b0c4c196-d5f3-46e2-8d94-69ca4dab95a7",
+      "Inertia Measurement Unit1"
+    ],
+    [
+      "33d0f83e-639e-42b5-9f17-e979c845beaf",
+      "Inertia Measurement Unit2"
+    ],
+    [
+      "d2f31d9c-a1b0-48f7-86b0-8b4fecb9c737",
+      "Inertia Measurement Unit3"
     ]
   ],
   "text_variables": {}
