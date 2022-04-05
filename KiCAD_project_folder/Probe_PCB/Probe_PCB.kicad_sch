@@ -1,0 +1,127 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid edde5bdb-d540-4f1f-a759-571037a8cf2c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 114.3 62.23) (size 66.04 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c1dc5829-b40e-4135-89a1-54f4cfffdbcf)
+    (property "Sheet name" "Inertia Measurement Unit & ADC" (id 0) (at 114.3 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 114.3 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "INT1" bidirectional (at 114.3 67.31 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4eb95883-b7c3-4b76-975e-6d7c20e8530d)
+    )
+    (pin "INT2" bidirectional (at 114.3 71.12 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f00303fc-01e6-452d-b11e-3160a571658f)
+    )
+    (pin "SDA" bidirectional (at 114.3 74.93 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9b8a68a7-ef17-4a38-bd32-d1dfe6e69cfe)
+    )
+    (pin "SCK" bidirectional (at 114.3 78.74 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2077403b-69b7-4e24-a87b-8d35018e2c61)
+    )
+    (pin "CSB" bidirectional (at 114.3 82.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6c67c6c7-e7ed-4310-92df-192e7e181cf3)
+    )
+    (pin "SDO" bidirectional (at 114.3 86.36 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b918c7a3-11d2-43d8-b79b-78999e594ea5)
+    )
+    (pin "~{CS}" bidirectional (at 114.3 90.17 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ca69f076-ea0b-4ecd-b123-640cb952d02c)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/4814911e-4ea7-4d43-94d4-8d43d2904771"
+      (reference "#PWR01") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/d18475c1-42ff-4b55-b01b-f5812224a1e8"
+      (reference "#PWR02") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/c807f0ae-c4ee-4140-a0dd-096a55ae9089"
+      (reference "#PWR03") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/c585c071-4981-4473-8635-490ae616c48f"
+      (reference "#PWR04") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/a4000b5a-395d-44c3-b07a-eb004a0fce84"
+      (reference "#PWR05") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/fe6c17c3-8e3d-4005-adc4-268cf9d4445f"
+      (reference "#PWR06") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/b7f16fea-3549-4771-84e7-c32b440578a8"
+      (reference "#PWR07") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/f2b732c4-8ab5-4703-b80f-018a88dfd667"
+      (reference "#PWR08") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/42a3c78c-d141-46fd-8ba5-a2c86edeb390"
+      (reference "#PWR09") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/410a1921-4781-40ad-9f0d-140564e2b19c"
+      (reference "#PWR010") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/06fe6d2a-2f7f-4659-a0e8-0ebe1ef37a4f"
+      (reference "#PWR011") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/19a50f46-3810-43be-853a-03810d9017c1"
+      (reference "#PWR012") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/24939871-938a-4832-b3b7-5232746009f0"
+      (reference "#PWR013") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/d6ebc04d-cac3-4e68-9a46-6cb03fa0fc4b"
+      (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/3865784c-e539-49d3-b993-1e8e06114d5a"
+      (reference "C2") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/b79ab6f5-ce58-4814-b7b6-bf1285abae46"
+      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/54c27b89-d89f-4347-9475-e119b9f40ed6"
+      (reference "C4") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/2d698c62-3d42-4c3b-9c33-2d672f349689"
+      (reference "C5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/49d06635-ffb7-4e02-aee3-aea4f1a0aba0"
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/d7e81585-faec-4bdf-8626-4ef3cbdbeae4"
+      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/3dc76099-9b9c-450f-821a-4afe7190413c"
+      (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/e34930ca-ecb9-4971-bbc4-2d670f9bd248"
+      (reference "U1") (unit 1) (value "LTC2452ITS8-TRMPBF") (footprint "LTC2452:LTC2452ITS8-TRMPBF")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/433bd826-4e1b-4e8c-af84-e0fad58e434f"
+      (reference "U2") (unit 1) (value "BMI160") (footprint "BMI160:BMI160")
+    )
+  )
+)
