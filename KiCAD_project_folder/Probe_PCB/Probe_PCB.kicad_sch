@@ -93,6 +93,9 @@
     (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/24939871-938a-4832-b3b7-5232746009f0"
       (reference "#PWR013") (unit 1) (value "GNDREF") (footprint "")
     )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/2baafa94-f860-42b2-a22e-2ab84f45a487"
+      (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/d6ebc04d-cac3-4e68-9a46-6cb03fa0fc4b"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
@@ -116,6 +119,9 @@
     )
     (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/3dc76099-9b9c-450f-821a-4afe7190413c"
       (reference "C8") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/cc24e646-2392-46cb-b4ba-7879f084e45e"
+      (reference "J1") (unit 1) (value "DF11-8DP-2DS52") (footprint "DF11-8POS:DF11-8DP-2DS52")
     )
     (path "/c1dc5829-b40e-4135-89a1-54f4cfffdbcf/e34930ca-ecb9-4971-bbc4-2d670f9bd248"
       (reference "U1") (unit 1) (value "LTC2452ITS8-TRMPBF") (footprint "LTC2452:LTC2452ITS8-TRMPBF")
