@@ -460,6 +460,9 @@
     (path "/00000000-0000-0000-0000-0000604af200/59937421-2e45-4e39-b3ea-1771f661003f"
       (reference "C47") (unit 1) (value "10uF") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604b2e86/4b6f29d3-3255-4243-b204-85d1c810ee4d"
+      (reference "IC?") (unit 1) (value "ESP32-S2") (footprint "QFN56_ESP32_7X7_EXP")
+    )
     (path "/00000000-0000-0000-0000-0000604af200/00000000-0000-0000-0000-000060777346"
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
@@ -507,9 +510,6 @@
     )
     (path "/00000000-0000-0000-0000-0000604af200/37a6d19f-ad28-4419-a187-a0f9719d7405"
       (reference "U1") (unit 1) (value "MAX14748BEWW+") (footprint "21-100122_W542C3+1_MXM")
-    )
-    (path "/00000000-0000-0000-0000-0000604b2e86/00000000-0000-0000-0000-00006184adba"
-      (reference "U2") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
     )
     (path "/00000000-0000-0000-0000-0000604b51e6/00000000-0000-0000-0000-000060abb037/acdf1401-7333-43d7-ac3f-2245baffa6ea/bb0224aa-911d-4998-a557-8a8c6d1ca858"
       (reference "U3") (unit 1) (value "LTC2452ITS8-TRMPBF") (footprint "LTC2456:LTC2452ITS8-TRMPBF")

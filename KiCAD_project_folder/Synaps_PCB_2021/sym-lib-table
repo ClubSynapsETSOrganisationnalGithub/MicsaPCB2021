@@ -3,4 +3,5 @@
   (lib (name "LTC2452")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_LTC2452ITS8-TRMPBF/KiCAD/2022-03-24_19-21-03/2022-03-24_19-21-03.lib")(options "")(descr ""))
   (lib (name "BM160")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_BMI160/KiCAD/2022-03-24_19-43-18/2022-03-24_19-43-18.lib")(options "")(descr ""))
   (lib (name "project_library_MICSAPCB")(type "KiCad")(uri "${KIPRJMOD}/project_library_MICSAPCB.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S2")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_ESP32-S2/KiCAD/2022-05-17_18-07-42/2022-05-17_18-07-42.lib")(options "")(descr ""))
 )
