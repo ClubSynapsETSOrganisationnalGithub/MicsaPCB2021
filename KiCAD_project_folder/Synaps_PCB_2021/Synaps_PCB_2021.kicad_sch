@@ -130,6 +130,15 @@
     (path "/00000000-0000-0000-0000-0000604b51e6/00000000-0000-0000-0000-000060abb037/acdf1401-7333-43d7-ac3f-2245baffa6ea/8f4bf9b6-f155-4f68-83a7-2b986df2ba1b"
       (reference "#PWR010") (unit 1) (value "GNDREF") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604af200/48a422ca-cdc9-43ee-bb03-7c20e7c88069"
+      (reference "#PWR011") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/52618263-7028-4fd8-b6ea-fd1a9f65e6da"
+      (reference "#PWR012") (unit 1) (value "VIO") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/ad0e8a75-3c18-4b68-b709-f2c4f54d4827"
+      (reference "#PWR013") (unit 1) (value "VIO") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604b51e6/00000000-0000-0000-0000-000060abb037/acdf1401-7333-43d7-ac3f-2245baffa6ea/43ac6ffa-7b63-4fc0-b2b8-4c9c5eb4bd58"
       (reference "#PWR016") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -306,6 +315,9 @@
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/dab29796-d6b3-4d2d-805f-0b5d2109d9de"
       (reference "AE2") (unit 1) (value "PBC ANT") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/20dc8380-8301-4e4d-b92e-10f897be3640"
+      (reference "BT2") (unit 1) (value "Battery_Cell") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604af200/c3c59c29-0795-4c2a-bc70-f9fef44675e8"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
@@ -496,6 +508,9 @@
     (path "/00000000-0000-0000-0000-0000604b2e86/04c74dd5-f6c8-4c9d-8c28-3b17ac54986b"
       (reference "C63") (unit 1) (value "10nF/6.3V(10%)") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604af200/5213bc81-6974-4343-aba7-970b9f36c652"
+      (reference "D2") (unit 1) (value "LED") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604b2e86/b40b1eac-9bfc-4cbe-b825-0212be42c854"
       (reference "GND02") (unit 1) (value "Earth") (footprint "")
     )
@@ -568,6 +583,9 @@
     (path "/00000000-0000-0000-0000-0000604b2e86/a818dbd6-8d05-4bed-8e76-065b136c4a97"
       (reference "L3") (unit 1) (value "2.0nH") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604af200/e4389919-6981-464b-9e40-338f8e18ab39"
+      (reference "L4") (unit 1) (value "INDUCTOR") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604af200/30e58f79-c173-4870-9af4-7e80c241c783"
       (reference "Q2") (unit 1) (value "Q_PMOS_DGS") (footprint "")
     )
@@ -591,6 +609,18 @@
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/378e526d-5a27-490c-9809-30a858151ca1"
       (reference "R8") (unit 1) (value "20K(5%)") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/e51c93b1-5075-44c7-8e8a-d5dadee89275"
+      (reference "R9") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/108d9010-1707-45cd-81a1-868ef160cb3d"
+      (reference "R10") (unit 1) (value "4.7K") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/db105ea5-5179-4200-8e64-dd494617b83c"
+      (reference "R11") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/1b28b4e3-c6c2-4e3f-ad68-500594bc20a4"
+      (reference "R12") (unit 1) (value "4.7K") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604af200/13c63bdd-8124-498f-a41a-0d57f55b9907"
       (reference "TP1") (unit 1) (value "TPCC1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
