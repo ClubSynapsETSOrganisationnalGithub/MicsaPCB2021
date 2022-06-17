@@ -928,7 +928,7 @@
     (property "Value" "Conn_01x20_MountingPin" (id 1) (at 221.742 64.2878 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 219.71 60.96 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical" (id 2) (at 219.71 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 219.71 60.96 0)
