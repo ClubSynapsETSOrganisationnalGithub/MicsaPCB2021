@@ -1242,7 +1242,7 @@
 
   (footprint "MAX14748:MAX14748BEWW&plus_" (layer "F.Cu")
     (tedit 62AD120F) (tstamp 51a59ce9-99cc-4a3a-bf7c-adbdfad9c510)
-    (at 124.295 56.0482)
+    (at 124.5031 56.8706)
     (property "Sheetfile" "Power_Supply.kicad_sch")
     (property "Sheetname" "Power Supply")
     (path "/00000000-0000-0000-0000-0000604af200/37a6d19f-ad28-4419-a187-a0f9719d7405")
