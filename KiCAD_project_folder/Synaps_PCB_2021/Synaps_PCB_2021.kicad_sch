@@ -5,8 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Electrode PCB")
-    (date "2020-12-29")
+    (title "Misca PCB")
+    (date "2022-06-17")
+    (rev "A2")
+    (company "Club SynapsÉTS")
+    (comment 1 "Auteur : Jacques Veneziano")
   )
 
   (lib_symbols
