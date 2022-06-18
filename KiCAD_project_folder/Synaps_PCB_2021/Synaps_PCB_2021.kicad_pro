@@ -111,7 +111,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.01,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
@@ -417,7 +417,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../../",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -443,6 +443,30 @@
     [
       "00000000-0000-0000-0000-0000604b51e6",
       "Probes schematic"
+    ],
+    [
+      "00000000-0000-0000-0000-000060abb037",
+      "Probes_1"
+    ],
+    [
+      "00000000-0000-0000-0000-000060abfaac",
+      "Probes_2"
+    ],
+    [
+      "acdf1401-7333-43d7-ac3f-2245baffa6ea",
+      "Inertia Measurement Unit & ADC3"
+    ],
+    [
+      "33d0f83e-639e-42b5-9f17-e979c845beaf",
+      "Inertia Measurement Unit & ADC"
+    ],
+    [
+      "9ed74e4b-b18d-4e90-91af-c5ab205598e0",
+      "Inertia Measurement Unit & ADC1"
+    ],
+    [
+      "9edac533-b3b5-4c9d-98ac-8cf3c8333e78",
+      "Inertia Measurement Unit & ADC2"
     ]
   ],
   "text_variables": {}
