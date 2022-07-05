@@ -136,9 +136,21 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b49dbd0e-ecdf-431f-8cff-e11faa82670e)
   )
+  (wire (pts (xy 82.55 149.86) (xy 82.55 96.52))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ba45b9d5-968b-43fb-b4cd-0b3a476d230c)
+  )
   (wire (pts (xy 76.2 59.69) (xy 127 59.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bd4f69e5-ce04-4fcf-af45-b3f6ac51b38a)
+  )
+  (wire (pts (xy 82.55 96.52) (xy 127 96.52))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c49ab76b-956b-4f91-9162-04575e1380aa)
+  )
+  (wire (pts (xy 80.01 93.98) (xy 127 93.98))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid cb1fd45c-1d58-46c4-823e-1a48aa94c06e)
   )
   (wire (pts (xy 102.87 149.86) (xy 102.87 133.35))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -191,6 +203,10 @@
   (wire (pts (xy 190.5 55.88) (xy 223.52 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f379fa06-c371-41c7-9228-fac9dbf3693a)
+  )
+  (wire (pts (xy 80.01 149.86) (xy 80.01 93.98))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f3e86301-12bf-41f8-a524-cafd7c983408)
   )
   (wire (pts (xy 133.35 123.19) (xy 133.35 114.3))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -250,10 +266,6 @@
     )
     (property "Sheet file" "microcontroler.kicad_sch" (id 1) (at 127 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "VDD33" input (at 127 44.45 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cb791233-51d0-4601-ba56-40e9de73efa4)
     )
     (pin "USB_D-" bidirectional (at 127 59.69 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -455,6 +467,14 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 03543eac-1890-4277-9320-8239dae6b65c)
     )
+    (pin "GPIO21" bidirectional (at 80.01 149.86 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ff0a73d9-2c09-4ee9-beee-9604df84be92)
+    )
+    (pin "GPIO11" bidirectional (at 82.55 149.86 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 22876da4-6173-4cee-aff0-6f741c24d508)
+    )
   )
 
   (sheet_instances
@@ -504,9 +524,6 @@
     )
     (path "/00000000-0000-0000-0000-0000604af200/029525a0-8a41-486f-a02b-f13993394b49"
       (reference "#PWR013") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/ef1da815-5ae9-4f7a-859c-d7960e6acc1e"
-      (reference "#PWR014") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604af200/b5aba46c-977a-4706-899d-5875980faab4"
       (reference "#PWR015") (unit 1) (value "VDD") (footprint "")
@@ -610,12 +627,6 @@
     (path "/00000000-0000-0000-0000-0000604b51e6/352f1da0-90ca-487b-badc-82f1ec2ca33c"
       (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604b51e6/985fc325-4e90-4701-95f1-1aa7b43358fb"
-      (reference "#PWR049") (unit 1) (value "GNDREF") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000604b51e6/49a828ae-3f98-4bd8-bef9-14a992299c68"
-      (reference "#PWR050") (unit 1) (value "GNDREF") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000604b51e6/f3f572b8-a413-4bfd-9f78-f7f49ba1498c"
       (reference "#PWR051") (unit 1) (value "GNDREF") (footprint "")
     )
@@ -664,8 +675,14 @@
     (path "/00000000-0000-0000-0000-0000604af200/c3897589-3648-454c-9d3d-6573d66fd15c"
       (reference "#PWR075") (unit 1) (value "GNDREF") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604b51e6/285eee95-fe40-4a76-9ead-469d3137b903"
+      (reference "#PWR0101") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604af200/eaf45722-852c-47af-8403-1f057ec76e15"
       (reference "#PWR0102") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/4c6a8406-b60a-4727-b2ce-f8d643541f7a"
+      (reference "#PWR0103") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000604af200/29ab8ef7-d469-4192-a436-a1a2c51aa419"
       (reference "#PWR0104") (unit 1) (value "GNDREF") (footprint "")
@@ -803,7 +820,7 @@
       (reference "L5") (unit 1) (value "L_Ferrite") (footprint "Ferrite_THT:LairdTech_28C0236-0JW-10")
     )
     (path "/00000000-0000-0000-0000-0000604af200/30e58f79-c173-4870-9af4-7e80c241c783"
-      (reference "Q2") (unit 1) (value "Q_PMOS_DGS") (footprint "Transformer_NF_ETAL_P2781")
+      (reference "Q2") (unit 1) (value "Q_PMOS_DGS") (footprint "Transformer_SMD:Transformer_NF_ETAL_P2781")
     )
     (path "/00000000-0000-0000-0000-0000604af200/8834be57-e470-4d6f-9ac6-cbc55a7612e6"
       (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
