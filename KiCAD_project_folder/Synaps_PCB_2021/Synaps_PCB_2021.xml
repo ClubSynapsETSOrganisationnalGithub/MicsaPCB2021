@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\SynapseDev\MicsaPCB2021\KiCAD_project_folder\Synaps_PCB_2021\Synaps_PCB_2021.kicad_sch</source>
-    <date>2022-07-05 18:57:13</date>
+    <date>2022-08-23 16:11:30</date>
     <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -485,7 +485,7 @@
       <tstamps>affee555-ded7-46de-bff4-a724c2bcaa09</tstamps>
     </comp>
     <comp ref="C7">
-      <value>12.5pF</value>
+      <value>22pF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Microcontroler"/>
@@ -494,7 +494,7 @@
       <tstamps>33804f33-ba41-4ea7-bb85-88263d030055</tstamps>
     </comp>
     <comp ref="C8">
-      <value>12.5pF</value>
+      <value>22pF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Microcontroler"/>

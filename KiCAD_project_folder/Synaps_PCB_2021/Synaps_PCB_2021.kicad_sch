@@ -712,10 +712,10 @@
       (reference "C6") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/33804f33-ba41-4ea7-bb85-88263d030055"
-      (reference "C7") (unit 1) (value "12.5pF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C7") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/25359180-3e42-44df-a9af-8fb59562be0f"
-      (reference "C8") (unit 1) (value "12.5pF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C8") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/c3ec28d0-7d6a-45c7-8929-905948ef9c11"
       (reference "C9") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
@@ -802,10 +802,10 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A")
     )
     (path "/00000000-0000-0000-0000-0000604cfc13/20571990-3fdf-4e54-9cde-5ccb398bd4d6"
-      (reference "J2") (unit 1) (value "Conn_01x20_MountingPin") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_02x10_MountingPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD")
     )
     (path "/00000000-0000-0000-0000-0000604b51e6/21f15db6-2d28-4302-bf3f-b601ce2befd9"
-      (reference "J3") (unit 1) (value "Conn_01x20_MountingPin") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_02x10_MountingPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/65778b97-4bd1-4830-a540-c2ec5320ce4e"
       (reference "L2") (unit 1) (value "TBD") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
@@ -814,10 +814,10 @@
       (reference "L3") (unit 1) (value "2.0nH") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604af200/e4389919-6981-464b-9e40-338f8e18ab39"
-      (reference "L4") (unit 1) (value "INDUCTOR") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
+      (reference "L4") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604af200/9d05efa6-c335-40cb-8451-b925832a8438"
-      (reference "L5") (unit 1) (value "L_Ferrite") (footprint "Ferrite_THT:LairdTech_28C0236-0JW-10")
+      (reference "L5") (unit 1) (value "L_Ferrite 60 Omh 1.5 A") (footprint "Ferrite_THT:LairdTech_28C0236-0JW-10")
     )
     (path "/00000000-0000-0000-0000-0000604af200/30e58f79-c173-4870-9af4-7e80c241c783"
       (reference "Q2") (unit 1) (value "Q_PMOS_DGS") (footprint "Transformer_SMD:Transformer_NF_ETAL_P2781")
@@ -874,13 +874,13 @@
       (reference "R18") (unit 1) (value "10M") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000604af200/f03f796f-3a3b-4887-ad9e-dbd4dd8ca247"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Push_Button:GPTS203211B")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/a1049aa9-728e-4ed0-85a2-500eb811ce0a"
-      (reference "SW3") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW3") (unit 1) (value "SW_Push") (footprint "Push_Button:GPTS203211B")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/07e0c2f8-21b4-4dfc-b9e7-7302f4a86e41"
-      (reference "SW4") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW4") (unit 1) (value "SW_Push") (footprint "Push_Button:GPTS203211B")
     )
     (path "/00000000-0000-0000-0000-0000604af200/13c63bdd-8124-498f-a41a-0d57f55b9907"
       (reference "TP1") (unit 1) (value "TPCC1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -903,11 +903,29 @@
     (path "/00000000-0000-0000-0000-0000604b2e86/719fb448-5bee-4f90-bc6f-254c1aab7f64"
       (reference "U3") (unit 1) (value "AT25DF041x-UxN-x") (footprint "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD")
     )
+    (path "/00000000-0000-0000-0000-0000604af200/8f863346-1ebb-4eb2-8d27-c0b5abbd0787"
+      (reference "U4") (unit 1) (value "BQ24725RGRR") (footprint "BQ24725:BQ24725RGRR")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/fe68b1f2-ab21-41c6-b910-9841a6699f09"
+      (reference "U5") (unit 1) (value "TPS25741ARSMR") (footprint "TPS25741:TPS25741ARSMR")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/48548f03-4548-4794-8292-42096c0fe457"
+      (reference "U6") (unit 1) (value "TL3845BDR") (footprint "TL3845BDR:TL3845BDR")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/d0be9e18-fb08-4d2d-a6ad-fa0d87ef98e7"
+      (reference "U7") (unit 1) (value "max15027atb+t") (footprint "MAX15027:max15027atb&plus_t")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/11add0fd-6748-42e3-9040-a927a4136bb9"
+      (reference "U?") (unit 1) (value "TVS2201DRBR") (footprint "TVS2201:IC_DRV8601DRBT")
+    )
+    (path "/00000000-0000-0000-0000-0000604b51e6/927962f9-21cf-4bf0-9e51-de58b06fafdf"
+      (reference "U?") (unit 1) (value "74HCT4067PW_118") (footprint "74HCT4067PW-118:74HCT4067PW_118")
+    )
     (path "/00000000-0000-0000-0000-0000604b2e86/eba3e869-9c4e-40f7-aa3e-e2c1bcfc73f2"
-      (reference "Y2") (unit 1) (value "Crystal_GND24") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering")
+      (reference "Y2") (unit 1) (value "40 MHz") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/f1ec4343-aa64-4f8d-8ec0-496b852a947a"
-      (reference "Y3") (unit 1) (value "32.768K") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering")
+      (reference "Y3") (unit 1) (value "32.768 KHz") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering")
     )
   )
 )
