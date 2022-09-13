@@ -1162,7 +1162,7 @@
   (symbol (lib_id "74HCT4067PW-118:74HCT4067PW_118") (at 99.06 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 927962f9-21cf-4bf0-9e51-de58b06fafdf)
-    (property "Reference" "U?" (id 0) (at 119.38 112.6924 0)
+    (property "Reference" "U9" (id 0) (at 119.38 112.6924 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "74HCT4067PW_118" (id 1) (at 119.38 115.6858 0)

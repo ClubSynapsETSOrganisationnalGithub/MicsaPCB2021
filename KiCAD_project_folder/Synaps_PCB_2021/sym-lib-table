@@ -11,4 +11,7 @@
   (lib (name "MAX15027")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_max15027atb-t/KiCAD/2022-08-24_21-38-09/2022-08-24_21-38-09.lib")(options "")(descr ""))
   (lib (name "TVS2201")(type "KiCad")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_TVS2201DRBR/TVS2201.kicad_sym")(options "")(descr ""))
   (lib (name "74HCT4067PW-118")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_74HCT4067PW-118/KiCAD/2022-08-24_22-12-19/2022-08-24_22-12-19.lib")(options "")(descr ""))
+  (lib (name "CSD17578Q3AT")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_CSD17578Q3AT/KiCAD/2022-09-13_22-24-40/2022-09-13_22-24-40.lib")(options "")(descr ""))
+  (lib (name "CSD17310Q5A")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_CSD17310Q5A/KiCAD/2022-09-13_22-43-48/2022-09-13_22-43-48.lib")(options "")(descr ""))
+  (lib (name "CDBA340L-HF")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_CDBA340L-HF/KiCAD/2022-09-13_22-54-22/2022-09-13_22-54-22.lib")(options "")(descr ""))
 )

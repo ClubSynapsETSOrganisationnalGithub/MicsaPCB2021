@@ -598,6 +598,10 @@
     [
       "00000000-0000-0000-0000-0000604b51e6",
       "Probes schematic"
+    ],
+    [
+      "2a30e964-7972-42bf-ae62-0840c1ea0d25",
+      "TPS25741ARSMR"
     ]
   ],
   "text_variables": {}
