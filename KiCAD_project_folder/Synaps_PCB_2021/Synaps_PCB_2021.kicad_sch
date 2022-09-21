@@ -484,6 +484,10 @@
     (path "/00000000-0000-0000-0000-0000604b2e86" (page "4"))
     (path "/00000000-0000-0000-0000-0000604b51e6" (page "5"))
     (path "/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25" (page "6"))
+    (path "/00000000-0000-0000-0000-0000604af200/35769dbd-9a54-44ca-9d80-67622c8029c9" (page "7"))
+    (path "/00000000-0000-0000-0000-0000604af200/1908bf63-3c4a-4986-9c9c-298c531e6609" (page "8"))
+    (path "/00000000-0000-0000-0000-0000604af200/4197fd6e-d0dc-4cad-a61b-00b708d61f8e" (page "9"))
+    (path "/00000000-0000-0000-0000-0000604af200/8859959c-fd90-4c08-9c36-a742ed7339e5" (page "10"))
   )
 
   (symbol_instances
@@ -904,18 +908,6 @@
     (path "/00000000-0000-0000-0000-0000604b2e86/719fb448-5bee-4f90-bc6f-254c1aab7f64"
       (reference "U3") (unit 1) (value "AT25DF041x-UxN-x") (footprint "Package_CSP:WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD")
     )
-    (path "/00000000-0000-0000-0000-0000604af200/8f863346-1ebb-4eb2-8d27-c0b5abbd0787"
-      (reference "U4") (unit 1) (value "BQ24725RGRR") (footprint "BQ24725:BQ24725RGRR")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/48548f03-4548-4794-8292-42096c0fe457"
-      (reference "U6") (unit 1) (value "TL3845BDR") (footprint "TL3845BDR:TL3845BDR")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/d0be9e18-fb08-4d2d-a6ad-fa0d87ef98e7"
-      (reference "U7") (unit 1) (value "max15027atb+t") (footprint "MAX15027:max15027atb&plus_t")
-    )
-    (path "/00000000-0000-0000-0000-0000604af200/11add0fd-6748-42e3-9040-a927a4136bb9"
-      (reference "U8") (unit 1) (value "TVS2201DRBR") (footprint "TVS2201:IC_DRV8601DRBT")
-    )
     (path "/00000000-0000-0000-0000-0000604b51e6/927962f9-21cf-4bf0-9e51-de58b06fafdf"
       (reference "U9") (unit 1) (value "74HCT4067PW_118") (footprint "74HCT4067PW-118:74HCT4067PW_118")
     )
@@ -928,8 +920,20 @@
     (path "/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/4cbe810d-6779-44eb-bf9b-92f488acccba"
       (reference "U?") (unit 1) (value "CSD17310Q5A") (footprint "DQJ8")
     )
+    (path "/00000000-0000-0000-0000-0000604af200/1908bf63-3c4a-4986-9c9c-298c531e6609/7e517a6d-aeab-459a-b195-aad471920d40"
+      (reference "U?") (unit 1) (value "max15027atb+t") (footprint "MAX15027:max15027atb&plus_t")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/35769dbd-9a54-44ca-9d80-67622c8029c9/d7172e4d-8e1d-4c85-bcff-439381cf3a90"
+      (reference "U?") (unit 1) (value "TL3845BDR") (footprint "TL3845BDR:TL3845BDR")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/8859959c-fd90-4c08-9c36-a742ed7339e5/e1669825-ddf5-45c2-9e8a-592d9d67e2f6"
+      (reference "U?") (unit 1) (value "BQ24725RGRR") (footprint "BQ24725:BQ24725RGRR")
+    )
     (path "/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/e7d582e8-fb5c-496d-84c9-5ce14c4ad45c"
       (reference "U?") (unit 1) (value "TPS25741ARSMR") (footprint "TPS25741:TPS25741ARSMR")
+    )
+    (path "/00000000-0000-0000-0000-0000604af200/4197fd6e-d0dc-4cad-a61b-00b708d61f8e/f4dd8c97-1491-44aa-950e-0a57f7acb4d1"
+      (reference "U?") (unit 1) (value "TVS2201DRBR") (footprint "TVS2201:IC_DRV8601DRBT")
     )
     (path "/00000000-0000-0000-0000-0000604b2e86/eba3e869-9c4e-40f7-aa3e-e2c1bcfc73f2"
       (reference "Y2") (unit 1) (value "40 MHz") (footprint "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering")
