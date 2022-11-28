@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-11-14")
+  )
+
   (lib_symbols
     (symbol "TL3845BDR:TL3845BDR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 40.64 10.16 0)
@@ -121,7 +125,7 @@
   (symbol (lib_id "TL3845BDR:TL3845BDR") (at 92.71 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d7172e4d-8e1d-4c85-bcff-439381cf3a90)
-    (property "Reference" "U?" (id 0) (at 133.35 65.7024 0)
+    (property "Reference" "U8" (id 0) (at 133.35 65.7024 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "TL3845BDR" (id 1) (at 133.35 68.6958 0)

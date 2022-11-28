@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-11-14")
+  )
+
   (lib_symbols
     (symbol "BQ24725:BQ24725RGRR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 33.02 10.16 0)
@@ -149,7 +153,7 @@
   (symbol (lib_id "BQ24725:BQ24725RGRR") (at 93.98 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e1669825-ddf5-45c2-9e8a-592d9d67e2f6)
-    (property "Reference" "U?" (id 0) (at 127 61.8924 0)
+    (property "Reference" "U12" (id 0) (at 127 61.8924 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "BQ24725RGRR" (id 1) (at 127 64.8858 0)

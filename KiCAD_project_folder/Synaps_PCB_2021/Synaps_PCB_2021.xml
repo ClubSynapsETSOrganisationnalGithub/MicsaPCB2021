@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>C:\SynapseDev\MicsaPCB2021\KiCAD_project_folder\Synaps_PCB_2021\Synaps_PCB_2021.kicad_sch</source>
-    <date>2022-08-23 16:11:30</date>
-    <tool>Eeschema (6.0.2)</tool>
+    <date>2022-11-14 09:49:51</date>
+    <tool>Eeschema (6.0.9)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Misca PCB</title>
@@ -94,6 +94,96 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="6" name="/Power Supply/TPS25741ARSMR/" tstamps="/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TPS25741ARSMR.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Power Supply/TL3845BDR/" tstamps="/00000000-0000-0000-0000-0000604af200/35769dbd-9a54-44ca-9d80-67622c8029c9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TL3845BDR.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Power Supply/MAX15027/" tstamps="/00000000-0000-0000-0000-0000604af200/1908bf63-3c4a-4986-9c9c-298c531e6609/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MAX15027.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Power Supply/TVS2201DRBR/" tstamps="/00000000-0000-0000-0000-0000604af200/4197fd6e-d0dc-4cad-a61b-00b708d61f8e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TVS2201DRBR.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Power Supply/BQ24725RGRR/" tstamps="/00000000-0000-0000-0000-0000604af200/8859959c-fd90-4c08-9c36-a742ed7339e5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BQ24725RGRR.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="BT2">
@@ -108,7 +198,14 @@
     <comp ref="C1">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -117,7 +214,14 @@
     <comp ref="C37">
       <value>22uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B226MPHNNNE/3888806</datasheet>
+      <fields>
+        <field name="MPN">CL31B226MPHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B226MPHNNNE/3888806</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B226MPHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B226MPHNNNE/3888806"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -126,7 +230,14 @@
     <comp ref="C38">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -135,7 +246,14 @@
     <comp ref="C39">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL31B106KAHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B106KAHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -144,7 +262,14 @@
     <comp ref="C40">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -153,7 +278,14 @@
     <comp ref="C41">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -162,7 +294,14 @@
     <comp ref="C42">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -171,7 +310,14 @@
     <comp ref="C43">
       <value>3.9nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C392KDRACTU</datasheet>
+      <fields>
+        <field name="MPN">C1206C392KDRAC7800</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/kemet/C1206C392KDRAC7800/2215831</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C1206C392KDRAC7800"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/kemet/C1206C392KDRAC7800/2215831"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -180,7 +326,14 @@
     <comp ref="C44">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -189,7 +342,14 @@
     <comp ref="C45">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -198,7 +358,14 @@
     <comp ref="C46">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -207,7 +374,14 @@
     <comp ref="C47">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL31B106KAHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B106KAHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -216,7 +390,14 @@
     <comp ref="C64">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL31B106KAHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B106KAHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -225,7 +406,14 @@
     <comp ref="C65">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -234,7 +422,14 @@
     <comp ref="C66">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -243,7 +438,14 @@
     <comp ref="C67">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="MPN">CL31B106KAHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B106KAHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -252,7 +454,14 @@
     <comp ref="D2">
       <value>LED</value>
       <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</datasheet>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/liteon/LTST-C190KGKT/386815</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/liteon/LTST-C190KGKT/386815"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -262,25 +471,45 @@
       <value>USB_C_Receptacle</value>
       <footprint>Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="MPN">USB4085-GF-A</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/gct/USB4085-GF-A/9859662</field>
+      </fields>
       <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4085-GF-A"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/gct/USB4085-GF-A/9859662"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
       <tstamps>00000000-0000-0000-0000-000060777346</tstamps>
     </comp>
     <comp ref="L4">
-      <value>INDUCTOR</value>
+      <value>2.2uH</value>
       <footprint>Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NRS6028T2R2NMGJ%20%20&amp;u=M</datasheet>
+      <fields>
+        <field name="MPN">NRS6028T2R2NMGJ</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/taiyo-yuden/NRS6028T2R2NMGJ/2665977</field>
+      </fields>
       <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="MPN" value="NRS6028T2R2NMGJ"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/taiyo-yuden/NRS6028T2R2NMGJ/2665977"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
       <tstamps>e4389919-6981-464b-9e40-338f8e18ab39</tstamps>
     </comp>
     <comp ref="L5">
-      <value>L_Ferrite</value>
+      <value>L_Ferrite 60 Omh 1.5 A</value>
       <footprint>Ferrite_THT:LairdTech_28C0236-0JW-10</footprint>
+      <datasheet>https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1005_en.pdf</datasheet>
+      <fields>
+        <field name="MPN">MPZ1005S600CT000</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/tdk-corporation/MPZ1005S600CT000/1084512</field>
+      </fields>
       <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="MPN" value="MPZ1005S600CT000"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/tdk-corporation/MPZ1005S600CT000/1084512"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -289,7 +518,14 @@
     <comp ref="Q2">
       <value>Q_PMOS_DGS</value>
       <footprint>Transformer_SMD:Transformer_NF_ETAL_P2781</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/texas-instruments/CSD17578Q3AT/5022209</datasheet>
+      <fields>
+        <field name="MPN">CSD17578Q3AT</field>
+        <field name="Supplier Link">https://www.ti.com/lit/ds/symlink/csd17578q3a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1663108229858&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcsd17578q3a</field>
+      </fields>
       <libsource lib="Device" part="Q_PMOS_DGS" description="P-MOSFET transistor, drain/gate/source"/>
+      <property name="MPN" value="CSD17578Q3AT"/>
+      <property name="Supplier Link" value="https://www.ti.com/lit/ds/symlink/csd17578q3a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1663108229858&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fcsd17578q3a"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -298,7 +534,14 @@
     <comp ref="R2">
       <value>10K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-0710KL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-0710KL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -307,7 +550,14 @@
     <comp ref="R3">
       <value>1M</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-071ML</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071ML/728388</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-071ML"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071ML/728388"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -316,7 +566,14 @@
     <comp ref="R4">
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -325,7 +582,14 @@
     <comp ref="R5">
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -334,7 +598,14 @@
     <comp ref="R9">
       <value>1K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="MPN">RNCP1206FTD1K00</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RNCP1206FTD1K00"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K00/2240337"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -343,7 +614,14 @@
     <comp ref="R10">
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -352,7 +630,14 @@
     <comp ref="R11">
       <value>10K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-0710KL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-0710KL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -361,7 +646,14 @@
     <comp ref="R12">
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -369,8 +661,15 @@
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <footprint>Push_Button:GPTS203211B</footprint>
+      <datasheet>http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf</datasheet>
+      <fields>
+        <field name="MPN">GPTS203211B</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="GPTS203211B"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -379,7 +678,11 @@
     <comp ref="TP1">
       <value>TPCC1</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -388,7 +691,11 @@
     <comp ref="TP2">
       <value>TPCC2</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -397,7 +704,11 @@
     <comp ref="TP3">
       <value>TPCDN</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -406,7 +717,11 @@
     <comp ref="TP4">
       <value>TPCDP</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+      </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="MPN" value=""/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
@@ -415,16 +730,27 @@
     <comp ref="U1">
       <value>MAX14748BEWW+</value>
       <footprint>MAX14748:MAX14748BEWW&amp;plus_</footprint>
+      <fields>
+        <field name="MPN"/>
+      </fields>
       <libsource lib="MAX14748" part="MAX14748BEWW+" description=""/>
+      <property name="MPN" value=""/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="Power_Supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/00000000-0000-0000-0000-0000604af200/"/>
       <tstamps>37a6d19f-ad28-4419-a187-a0f9719d7405</tstamps>
     </comp>
     <comp ref="J2">
-      <value>Conn_01x20_MountingPin</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical</footprint>
+      <value>Conn_02x10_MountingPin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://www.cnctech.us/pdfs/3020-XX-0300-00%20(9T).pdf</datasheet>
+      <fields>
+        <field name="MPN">3020-20-0300-00</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/cnc-tech/3020-20-0300-00/3441742</field>
+      </fields>
       <libsource lib="Connector_Generic_MountingPin" part="Conn_01x20_MountingPin" description="Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="3020-20-0300-00"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/cnc-tech/3020-20-0300-00/3441742"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="Connectors.kicad_sch"/>
       <sheetpath names="/Connectors/" tstamps="/00000000-0000-0000-0000-0000604cfc13/"/>
@@ -442,7 +768,14 @@
     <comp ref="C2">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -451,7 +784,14 @@
     <comp ref="C3">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -460,7 +800,14 @@
     <comp ref="C4">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -469,7 +816,14 @@
     <comp ref="C5">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31A7U3A101JW31-01.pdf</datasheet>
+      <fields>
+        <field name="MPN">GRM31A7U3A101JW31D</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GRM31A7U3A101JW31D/1022659</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM31A7U3A101JW31D"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GRM31A7U3A101JW31D/1022659"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -478,7 +832,14 @@
     <comp ref="C6">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -487,7 +848,14 @@
     <comp ref="C7">
       <value>22pF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.samsungsem.com/kr/support/product-search/mlcc/CL31C220JBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="MPN">CL31C220JBCNNNC</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31C220JBCNNNC"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -496,7 +864,14 @@
     <comp ref="C8">
       <value>22pF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.samsungsem.com/kr/support/product-search/mlcc/CL31C220JBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="MPN">CL31C220JBCNNNC</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31C220JBCNNNC"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -505,7 +880,14 @@
     <comp ref="C9">
       <value>1µF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
+      <fields>
+        <field name="MPN">GCM31MR71H105KA55L</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GCM31MR71H105KA55L"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -514,7 +896,14 @@
     <comp ref="C10">
       <value>0.1uF/50V(10%)(NC)</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -523,7 +912,14 @@
     <comp ref="C11">
       <value>0.1uF/50V(10%)(NC)</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -532,7 +928,14 @@
     <comp ref="C48">
       <value>10µF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B106KAHNNNE_Spec.pdf </datasheet>
+      <fields>
+        <field name="MPN">CL31B106KAHNNNE</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31B106KAHNNNE"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B106KAHNNNE/3887462"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -550,7 +953,14 @@
     <comp ref="C50">
       <value>0.1µF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf</datasheet>
+      <fields>
+        <field name="MPN">CC1206KRX7R9BB104</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC1206KRX7R9BB104"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -577,7 +987,14 @@
     <comp ref="C58">
       <value>22pF/6.3V(10%)</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</datasheet>
+      <fields>
+        <field name="MPN">CL31C220JBCNNNC</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31C220JBCNNNC"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -586,7 +1003,14 @@
     <comp ref="C59">
       <value>22pF/6.3V(10%)</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</datasheet>
+      <fields>
+        <field name="MPN">CL31C220JBCNNNC</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31C220JBCNNNC"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31C220JBCNNNC/3886861"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -595,7 +1019,14 @@
     <comp ref="IC2">
       <value>ESP32-S2</value>
       <footprint>ESP32-S2:ESP32-S2</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="MPN">ESP32-S2FN4R2</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-S2FN4R2/14312448</field>
+      </fields>
       <libsource lib="ESP32-S2" part="ESP32-S2" description=""/>
+      <property name="MPN" value="ESP32-S2FN4R2"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-S2FN4R2/14312448"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -622,7 +1053,14 @@
     <comp ref="R6">
       <value>10K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-0710KL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-0710KL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-0710KL/729209"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -631,7 +1069,14 @@
     <comp ref="R7">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -640,7 +1085,14 @@
     <comp ref="R8">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -649,7 +1101,14 @@
     <comp ref="R13">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -658,7 +1117,14 @@
     <comp ref="R14">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -667,7 +1133,14 @@
     <comp ref="R15">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -676,7 +1149,14 @@
     <comp ref="R16">
       <value>0</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206JR-070RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206JR-070RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206JR-070RL/729184"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -685,7 +1165,14 @@
     <comp ref="R17">
       <value>499</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07499RL</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07499RL/728944</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-07499RL"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07499RL/728944"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -694,7 +1181,14 @@
     <comp ref="R18">
       <value>10M</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0710ML</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710ML/728484</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-0710ML"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710ML/728484"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -702,8 +1196,15 @@
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <footprint>Push_Button:GPTS203211B</footprint>
+      <datasheet>http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf</datasheet>
+      <fields>
+        <field name="MPN">GPTS203211B</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="GPTS203211B"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -711,8 +1212,15 @@
     </comp>
     <comp ref="SW4">
       <value>SW_Push</value>
-      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <footprint>Push_Button:GPTS203211B</footprint>
+      <datasheet>http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf</datasheet>
+      <fields>
+        <field name="MPN">GPTS203211B</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="GPTS203211B"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/cw-industries/GPTS203211B/3190590"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
@@ -729,27 +1237,48 @@
       <tstamps>719fb448-5bee-4f90-bc6f-254c1aab7f64</tstamps>
     </comp>
     <comp ref="Y2">
-      <value>Crystal_GND24</value>
+      <value>40 MHz</value>
       <footprint>Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ecx-32.pdf</datasheet>
+      <fields>
+        <field name="MPN">ECS-400-18-33-JGN-TR3</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/ecs-inc/ECS-400-18-33-JGN-TR3/14825140</field>
+      </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="MPN" value="ECS-400-18-33-JGN-TR3"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/ecs-inc/ECS-400-18-33-JGN-TR3/14825140"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
       <tstamps>eba3e869-9c4e-40f7-aa3e-e2c1bcfc73f2</tstamps>
     </comp>
     <comp ref="Y3">
-      <value>32.768K</value>
+      <value>32.768 KHz</value>
       <footprint>Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering</footprint>
+      <datasheet>https://abracon.com/Resonators/ABS07.pdf</datasheet>
+      <fields>
+        <field name="MPN">ABS07-32.768KHZ-T</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="MPN" value="ABS07-32.768KHZ-T"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858"/>
       <property name="Sheetname" value="Microcontroler"/>
       <property name="Sheetfile" value="microcontroler.kicad_sch"/>
       <sheetpath names="/Microcontroler/" tstamps="/00000000-0000-0000-0000-0000604b2e86/"/>
       <tstamps>f1ec4343-aa64-4f8d-8ec0-496b852a947a</tstamps>
     </comp>
     <comp ref="J3">
-      <value>Conn_01x20_MountingPin</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x20_P2.00mm_Vertical</footprint>
+      <value>Conn_02x10_MountingPin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://www.cnctech.us/pdfs/3020-XX-0300-00%20(9T).pdf</datasheet>
+      <fields>
+        <field name="MPN">3020-20-0300-00</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/cnc-tech/3020-20-0300-00/3441742</field>
+      </fields>
       <libsource lib="Connector_Generic_MountingPin" part="Conn_01x20_MountingPin" description="Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="3020-20-0300-00"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/cnc-tech/3020-20-0300-00/3441742"/>
       <property name="Sheetname" value="Probes schematic"/>
       <property name="Sheetfile" value="Probes.kicad_sch"/>
       <sheetpath names="/Probes schematic/" tstamps="/00000000-0000-0000-0000-0000604b51e6/"/>
@@ -764,6 +1293,134 @@
       <property name="Sheetfile" value="Probes.kicad_sch"/>
       <sheetpath names="/Probes schematic/" tstamps="/00000000-0000-0000-0000-0000604b51e6/"/>
       <tstamps>bf2b04a3-a51c-418c-a4ac-e17e143fd721</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CSD17310Q5A</value>
+      <footprint>DQJ8</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/texas-instruments/CSD17310Q5A/2237243</datasheet>
+      <fields>
+        <field name="MPN">CSD17310Q5A</field>
+        <field name="Supplier Link">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd17310q5a</field>
+      </fields>
+      <libsource lib="CSD17310Q5A" part="CSD17310Q5A" description=""/>
+      <property name="MPN" value="CSD17310Q5A"/>
+      <property name="Supplier Link" value="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd17310q5a"/>
+      <property name="Sheetname" value="TPS25741ARSMR"/>
+      <property name="Sheetfile" value="TPS25741ARSMR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TPS25741ARSMR/" tstamps="/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/"/>
+      <tstamps>21bfacf0-bdb5-4981-b1d4-22d803a441d4</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS25741ARSMR</value>
+      <footprint>TPS25741:TPS25741ARSMR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps25741a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1661342523934&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps25741a</datasheet>
+      <fields>
+        <field name="MPN">TPS25741ARSMR</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/texas-instruments/TPS25741ARSMR/6817810</field>
+      </fields>
+      <libsource lib="TPS25741" part="TPS25741ARSMR" description=""/>
+      <property name="MPN" value="TPS25741ARSMR"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TPS25741ARSMR/6817810"/>
+      <property name="Sheetname" value="TPS25741ARSMR"/>
+      <property name="Sheetfile" value="TPS25741ARSMR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TPS25741ARSMR/" tstamps="/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/"/>
+      <tstamps>e7d582e8-fb5c-496d-84c9-5ce14c4ad45c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CDBA340L-HF</value>
+      <footprint>CDBA-HF</footprint>
+      <datasheet>https://www.comchiptech.com/admin/files/product/CDBA340L-HF%20RevC514368.pdf</datasheet>
+      <fields>
+        <field name="MPN">CDBA340L-HF</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/comchip-technology/CDBA340L-HF/3308142</field>
+      </fields>
+      <libsource lib="CDBA340L-HF" part="CDBA340L-HF" description=""/>
+      <property name="MPN" value="CDBA340L-HF"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/comchip-technology/CDBA340L-HF/3308142"/>
+      <property name="Sheetname" value="TPS25741ARSMR"/>
+      <property name="Sheetfile" value="TPS25741ARSMR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TPS25741ARSMR/" tstamps="/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/"/>
+      <tstamps>161b50ca-4f08-4466-b028-a950ccdabc18</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>CSD17310Q5A</value>
+      <footprint>DQJ8</footprint>
+      <datasheet>https://www.digikey.ca/en/products/detail/texas-instruments/CSD17310Q5A/2237243</datasheet>
+      <fields>
+        <field name="MPN">CSD17310Q5A</field>
+        <field name="Supplier Link">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd17310q5a</field>
+      </fields>
+      <libsource lib="CSD17310Q5A" part="CSD17310Q5A" description=""/>
+      <property name="MPN" value="CSD17310Q5A"/>
+      <property name="Supplier Link" value="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd17310q5a"/>
+      <property name="Sheetname" value="TPS25741ARSMR"/>
+      <property name="Sheetfile" value="TPS25741ARSMR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TPS25741ARSMR/" tstamps="/00000000-0000-0000-0000-0000604af200/2a30e964-7972-42bf-ae62-0840c1ea0d25/"/>
+      <tstamps>4cbe810d-6779-44eb-bf9b-92f488acccba</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TL3845BDR</value>
+      <footprint>TL3845BDR:TL3845BDR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tl3843b.pdf</datasheet>
+      <fields>
+        <field name="MPN">TL3845BDR</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/texas-instruments/TL3845BDR/1674915</field>
+      </fields>
+      <libsource lib="TL3845BDR" part="TL3845BDR" description=""/>
+      <property name="MPN" value="TL3845BDR"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TL3845BDR/1674915"/>
+      <property name="Sheetname" value="TL3845BDR"/>
+      <property name="Sheetfile" value="TL3845BDR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TL3845BDR/" tstamps="/00000000-0000-0000-0000-0000604af200/35769dbd-9a54-44ca-9d80-67622c8029c9/"/>
+      <tstamps>d7172e4d-8e1d-4c85-bcff-439381cf3a90</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>max15027atb+t</value>
+      <footprint>MAX15027:max15027atb&amp;plus_t</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX15027-MAX15028.pdf</datasheet>
+      <fields>
+        <field name="MPN">MAX15027ATB+T</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/analog-devices-inc-maxim-integrated/MAX15027ATB-T/2062171</field>
+      </fields>
+      <libsource lib="MAX15027" part="max15027atb+t" description=""/>
+      <property name="MPN" value="MAX15027ATB+T"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/analog-devices-inc-maxim-integrated/MAX15027ATB-T/2062171"/>
+      <property name="Sheetname" value="MAX15027"/>
+      <property name="Sheetfile" value="MAX15027.kicad_sch"/>
+      <sheetpath names="/Power Supply/MAX15027/" tstamps="/00000000-0000-0000-0000-0000604af200/1908bf63-3c4a-4986-9c9c-298c531e6609/"/>
+      <tstamps>7e517a6d-aeab-459a-b195-aad471920d40</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TVS2201DRBR</value>
+      <footprint>TVS2201:IC_DRV8601DRBT</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tvs2201.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1661377447628&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftvs2201</datasheet>
+      <fields>
+        <field name="MPN">TVS2201DRBR</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/texas-instruments/TVS2201DRBR/10820251</field>
+      </fields>
+      <libsource lib="TVS2201" part="TVS2201DRBR" description=""/>
+      <property name="MPN" value="TVS2201DRBR"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/TVS2201DRBR/10820251"/>
+      <property name="Sheetname" value="TVS2201DRBR"/>
+      <property name="Sheetfile" value="TVS2201DRBR.kicad_sch"/>
+      <sheetpath names="/Power Supply/TVS2201DRBR/" tstamps="/00000000-0000-0000-0000-0000604af200/4197fd6e-d0dc-4cad-a61b-00b708d61f8e/"/>
+      <tstamps>f4dd8c97-1491-44aa-950e-0a57f7acb4d1</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BQ24725RGRR</value>
+      <footprint>BQ24725:BQ24725RGRR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24725.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1661372015682&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24725</datasheet>
+      <fields>
+        <field name="MPN">BQ24725RGRR</field>
+        <field name="Supplier Link">https://www.digikey.ca/en/products/detail/texas-instruments/BQ24725RGRR/2352221</field>
+      </fields>
+      <libsource lib="BQ24725" part="BQ24725RGRR" description=""/>
+      <property name="MPN" value="BQ24725RGRR"/>
+      <property name="Supplier Link" value="https://www.digikey.ca/en/products/detail/texas-instruments/BQ24725RGRR/2352221"/>
+      <property name="Sheetname" value="BQ24725RGRR"/>
+      <property name="Sheetfile" value="BQ24725RGRR.kicad_sch"/>
+      <sheetpath names="/Power Supply/BQ24725RGRR/" tstamps="/00000000-0000-0000-0000-0000604af200/8859959c-fd90-4c08-9c36-a742ed7339e5/"/>
+      <tstamps>e1669825-ddf5-45c2-9e8a-592d9d67e2f6</tstamps>
     </comp>
   </components>
   <libparts>
@@ -804,6 +1461,75 @@
         <pin num="22" name="I9" type="passive"/>
         <pin num="23" name="I8" type="passive"/>
         <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BQ24725" part="BQ24725RGRR">
+      <footprints>
+        <fp>RGR20_2P05X2P05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24725RGRR</field>
+        <field name="Footprint">RGR20_2P05X2P05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ACN" type="input"/>
+        <pin num="2" name="ACP" type="input"/>
+        <pin num="3" name="CMSRC" type="input"/>
+        <pin num="4" name="ACDRV" type="input"/>
+        <pin num="5" name="ACOK" type="output"/>
+        <pin num="6" name="ACDET" type="input"/>
+        <pin num="7" name="IOUT" type="output"/>
+        <pin num="8" name="SDA" type="bidirectional"/>
+        <pin num="9" name="SCL" type="input"/>
+        <pin num="10" name="ILIM" type="input"/>
+        <pin num="11" name="BATDRV" type="output"/>
+        <pin num="12" name="SRN" type="input"/>
+        <pin num="13" name="SRP" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="LODRV" type="output"/>
+        <pin num="16" name="REGN" type="output"/>
+        <pin num="17" name="BTST" type="power_in"/>
+        <pin num="18" name="HIDRV" type="output"/>
+        <pin num="19" name="PHASE" type="power_in"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CDBA340L-HF" part="CDBA340L-HF">
+      <footprints>
+        <fp>CDBA-HF</fp>
+        <fp>CDBA-HF-M</fp>
+        <fp>CDBA-HF-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CDBA340L-HF</field>
+        <field name="Footprint">CDBA-HF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="CSD17310Q5A" part="CSD17310Q5A">
+      <footprints>
+        <fp>DQJ8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CSD17310Q5A</field>
+        <field name="Footprint">DQJ8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="S" type="unspecified"/>
+        <pin num="4" name="G" type="unspecified"/>
+        <pin num="5" name="D" type="unspecified"/>
+        <pin num="6" name="D" type="unspecified"/>
+        <pin num="7" name="D" type="unspecified"/>
+        <pin num="8" name="D" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -1176,6 +1902,31 @@
         <pin num="F9" name="CHGIN" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MAX15027" part="max15027atb+t">
+      <footprints>
+        <fp>21-0137I_T1033-1_MXM</fp>
+        <fp>21-0137I_T1033-1_MXM-M</fp>
+        <fp>21-0137I_T1033-1_MXM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">max15027atb+t</field>
+        <field name="Footprint">21-0137I_T1033-1_MXM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="IC" type="unspecified"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="SS" type="input"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="OUT" type="output"/>
+        <pin num="10" name="OUT" type="output"/>
+        <pin num="11" name="EP" type="unspecified"/>
+      </pins>
+    </libpart>
     <libpart lib="Memory_Flash" part="AT25DF041x-UxN-x">
       <description>4-Mbit, 1.65V Minimum SPI Serial Flash Memory with Dual-I/O, WLCSP-8</description>
       <docs>http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf</docs>
@@ -1212,6 +1963,91 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="TL3845BDR" part="TL3845BDR">
+      <footprints>
+        <fp>D14</fp>
+        <fp>D14-M</fp>
+        <fp>D14-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL3845BDR</field>
+        <field name="Footprint">D14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="unspecified"/>
+        <pin num="2" name="NC" type="unspecified"/>
+        <pin num="3" name="VFB" type="unspecified"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="ISENSE" type="unspecified"/>
+        <pin num="6" name="NC" type="unspecified"/>
+        <pin num="7" name="RT/CT" type="unspecified"/>
+        <pin num="8" name="POWERGROUND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="OUTPUT" type="output"/>
+        <pin num="11" name="VC" type="power_in"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="NC" type="unspecified"/>
+        <pin num="14" name="REF" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS25741" part="TPS25741ARSMR">
+      <footprints>
+        <fp>RSM32_2P8X2P8_TEX</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS25741ARSMR</field>
+        <field name="Footprint">RSM32_2P8X2P8_TEX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTX" type="unspecified"/>
+        <pin num="2" name="CC1" type="bidirectional"/>
+        <pin num="3" name="VCONN" type="unspecified"/>
+        <pin num="4" name="CC2" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="HIPWR" type="unspecified"/>
+        <pin num="7" name="CTL1" type="bidirectional"/>
+        <pin num="8" name="CTL2" type="bidirectional"/>
+        <pin num="9" name="*POL" type="unspecified"/>
+        <pin num="10" name="EN9V/EN12V" type="unspecified"/>
+        <pin num="11" name="N/C" type="no_connect"/>
+        <pin num="12" name="N/C" type="no_connect"/>
+        <pin num="13" name="N/C" type="no_connect"/>
+        <pin num="14" name="*UFP" type="unspecified"/>
+        <pin num="15" name="*DEBUG" type="unspecified"/>
+        <pin num="16" name="PSEL" type="unspecified"/>
+        <pin num="17" name="VIO" type="unspecified"/>
+        <pin num="18" name="DVDD" type="power_in"/>
+        <pin num="19" name="PCTRL" type="unspecified"/>
+        <pin num="20" name="*GD" type="unspecified"/>
+        <pin num="21" name="VAUX" type="unspecified"/>
+        <pin num="22" name="VDD" type="power_in"/>
+        <pin num="23" name="AGND" type="power_in"/>
+        <pin num="24" name="ISNS" type="unspecified"/>
+        <pin num="25" name="VPWR" type="unspecified"/>
+        <pin num="26" name="VBUS" type="unspecified"/>
+        <pin num="27" name="GDPG" type="unspecified"/>
+        <pin num="28" name="*AUDIO" type="unspecified"/>
+        <pin num="29" name="GDNG" type="unspecified"/>
+        <pin num="30" name="GDNS" type="unspecified"/>
+        <pin num="31" name="DSCG" type="unspecified"/>
+        <pin num="32" name="G5V" type="unspecified"/>
+        <pin num="33" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="TVS2201" part="TVS2201DRBR">
+      <docs>https://www.ti.com/lit/ds/symlink/tvs2201.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1661377447628&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftvs2201</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TVS2201DRBR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tvs2201.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1661377447628&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftvs2201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="pspice" part="CAP">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
@@ -1243,6 +2079,15 @@
     <library logical="74xx">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
     </library>
+    <library logical="BQ24725">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_BQ24725RGRR/KiCAD/2022-08-24_20-43-12/2022-08-24_20-43-12.lib</uri>
+    </library>
+    <library logical="CDBA340L-HF">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_CDBA340L-HF/KiCAD/2022-09-13_22-54-22/2022-09-13_22-54-22.lib</uri>
+    </library>
+    <library logical="CSD17310Q5A">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_CSD17310Q5A/KiCAD/2022-09-13_22-43-48/2022-09-13_22-43-48.lib</uri>
+    </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
@@ -1258,11 +2103,23 @@
     <library logical="MAX14748">
       <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_MAX14748BEWW-/KiCAD/2022-03-22_20-37-33/2022-03-22_20-37-33.lib</uri>
     </library>
+    <library logical="MAX15027">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_max15027atb-t/KiCAD/2022-08-24_21-38-09/2022-08-24_21-38-09.lib</uri>
+    </library>
     <library logical="Memory_Flash">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_Flash.kicad_sym</uri>
     </library>
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TL3845BDR">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_TL3845BDR/KiCAD/2022-08-24_21-28-39/2022-08-24_21-28-39.lib</uri>
+    </library>
+    <library logical="TPS25741">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_TPS25741ARSMR/KiCAD/2022-08-24_21-16-29/2022-08-24_21-16-29.lib</uri>
+    </library>
+    <library logical="TVS2201">
+      <uri>C:/SynapseDev/MicsaPCB2021/Librairies/ul_TVS2201DRBR/TVS2201.kicad_sym</uri>
     </library>
     <library logical="pspice">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
@@ -1664,8 +2521,10 @@
       <node ref="C45" pin="2" pintype="passive"/>
       <node ref="C46" pin="2" pintype="passive"/>
       <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
       <node ref="C49" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
       <node ref="C52" pin="2" pintype="passive"/>
       <node ref="C54" pin="2" pintype="passive"/>
       <node ref="C58" pin="2" pintype="passive"/>
@@ -1677,6 +2536,7 @@
       <node ref="C67" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="IC2" pin="57" pinfunction="EPAD" pintype="unspecified"/>
       <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
@@ -1806,47 +2666,353 @@
       <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="105" name="unconnected-(C9-Pad2)">
-      <node ref="C9" pin="2" pintype="passive"/>
-    </net>
-    <net code="106" name="unconnected-(C48-Pad2)">
-      <node ref="C48" pin="2" pintype="passive"/>
-    </net>
-    <net code="107" name="unconnected-(C50-Pad2)">
-      <node ref="C50" pin="2" pintype="passive"/>
-    </net>
-    <net code="108" name="unconnected-(J2-Pad7)">
+    <net code="105" name="unconnected-(J2-Pad7)">
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(J2-Pad8)">
+    <net code="106" name="unconnected-(J2-Pad8)">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(U1-PadA1)">
+    <net code="107" name="unconnected-(U1-PadA1)">
       <node ref="U1" pin="A1" pinfunction="AGND" pintype="power_in"/>
     </net>
-    <net code="111" name="unconnected-(U1-PadA2)">
+    <net code="108" name="unconnected-(U1-PadA2)">
       <node ref="U1" pin="A2" pinfunction="*FLINT" pintype="input"/>
     </net>
-    <net code="112" name="unconnected-(U1-PadB1)">
+    <net code="109" name="unconnected-(U1-PadB1)">
       <node ref="U1" pin="B1" pinfunction="CC2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(U1-PadE1)">
+    <net code="110" name="unconnected-(U1-PadE1)">
       <node ref="U1" pin="E1" pinfunction="CDN" pintype="input+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(U1-PadE5)">
+    <net code="111" name="unconnected-(U1-PadE5)">
       <node ref="U1" pin="E5" pinfunction="CDIR" pintype="output+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(U1-PadF1)">
+    <net code="112" name="unconnected-(U1-PadF1)">
       <node ref="U1" pin="F1" pinfunction="CDP" pintype="input+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(U1-PadF2)">
+    <net code="113" name="unconnected-(U1-PadF2)">
       <node ref="U1" pin="F2" pinfunction="TDP" pintype="unspecified+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(U1-PadF3)">
+    <net code="114" name="unconnected-(U1-PadF3)">
       <node ref="U1" pin="F3" pinfunction="TDN" pintype="unspecified+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(U1-PadF4)">
+    <net code="115" name="unconnected-(U1-PadF4)">
       <node ref="U1" pin="F4" pinfunction="BVCEN" pintype="output+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="117" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="118" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="119" name="unconnected-(U4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="120" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="121" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="122" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="123" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="124" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="VTX" pintype="unspecified"/>
+    </net>
+    <net code="125" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="VCONN" pintype="unspecified"/>
+    </net>
+    <net code="127" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="128" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="129" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="HIPWR" pintype="unspecified"/>
+    </net>
+    <net code="130" name="unconnected-(U5-Pad7)">
+      <node ref="U5" pin="7" pinfunction="CTL1" pintype="bidirectional"/>
+    </net>
+    <net code="131" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="CTL2" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="*POL" pintype="unspecified"/>
+    </net>
+    <net code="133" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="EN9V/EN12V" pintype="unspecified"/>
+    </net>
+    <net code="134" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="N/C" pintype="no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="N/C" pintype="no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U5-Pad13)">
+      <node ref="U5" pin="13" pinfunction="N/C" pintype="no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="*UFP" pintype="unspecified"/>
+    </net>
+    <net code="138" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="*DEBUG" pintype="unspecified"/>
+    </net>
+    <net code="139" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="PSEL" pintype="unspecified"/>
+    </net>
+    <net code="140" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="VIO" pintype="unspecified"/>
+    </net>
+    <net code="141" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="142" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="PCTRL" pintype="unspecified"/>
+    </net>
+    <net code="143" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="*GD" pintype="unspecified"/>
+    </net>
+    <net code="144" name="unconnected-(U5-Pad21)">
+      <node ref="U5" pin="21" pinfunction="VAUX" pintype="unspecified"/>
+    </net>
+    <net code="145" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="146" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="147" name="unconnected-(U5-Pad24)">
+      <node ref="U5" pin="24" pinfunction="ISNS" pintype="unspecified"/>
+    </net>
+    <net code="148" name="unconnected-(U5-Pad25)">
+      <node ref="U5" pin="25" pinfunction="VPWR" pintype="unspecified"/>
+    </net>
+    <net code="149" name="unconnected-(U5-Pad26)">
+      <node ref="U5" pin="26" pinfunction="VBUS" pintype="unspecified"/>
+    </net>
+    <net code="150" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="GDPG" pintype="unspecified"/>
+    </net>
+    <net code="151" name="unconnected-(U5-Pad28)">
+      <node ref="U5" pin="28" pinfunction="*AUDIO" pintype="unspecified"/>
+    </net>
+    <net code="152" name="unconnected-(U5-Pad29)">
+      <node ref="U5" pin="29" pinfunction="GDNG" pintype="unspecified"/>
+    </net>
+    <net code="153" name="unconnected-(U5-Pad30)">
+      <node ref="U5" pin="30" pinfunction="GDNS" pintype="unspecified"/>
+    </net>
+    <net code="154" name="unconnected-(U5-Pad31)">
+      <node ref="U5" pin="31" pinfunction="DSCG" pintype="unspecified"/>
+    </net>
+    <net code="155" name="unconnected-(U5-Pad32)">
+      <node ref="U5" pin="32" pinfunction="G5V" pintype="unspecified"/>
+    </net>
+    <net code="156" name="unconnected-(U5-Pad33)">
+      <node ref="U5" pin="33" pinfunction="EPAD" pintype="unspecified"/>
+    </net>
+    <net code="157" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="158" name="unconnected-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="159" name="unconnected-(U7-Pad1)">
+      <node ref="U7" pin="1" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="160" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="161" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="162" name="unconnected-(U7-Pad4)">
+      <node ref="U7" pin="4" pinfunction="G" pintype="unspecified"/>
+    </net>
+    <net code="163" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="164" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="165" name="unconnected-(U7-Pad7)">
+      <node ref="U7" pin="7" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="166" name="unconnected-(U7-Pad8)">
+      <node ref="U7" pin="8" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="167" name="unconnected-(U8-Pad1)">
+      <node ref="U8" pin="1" pinfunction="COMP" pintype="unspecified"/>
+    </net>
+    <net code="168" name="unconnected-(U8-Pad2)">
+      <node ref="U8" pin="2" pinfunction="NC" pintype="unspecified"/>
+    </net>
+    <net code="169" name="unconnected-(U8-Pad3)">
+      <node ref="U8" pin="3" pinfunction="VFB" pintype="unspecified"/>
+    </net>
+    <net code="170" name="unconnected-(U8-Pad4)">
+      <node ref="U8" pin="4" pinfunction="NC" pintype="unspecified"/>
+    </net>
+    <net code="171" name="unconnected-(U8-Pad5)">
+      <node ref="U8" pin="5" pinfunction="ISENSE" pintype="unspecified"/>
+    </net>
+    <net code="172" name="unconnected-(U8-Pad6)">
+      <node ref="U8" pin="6" pinfunction="NC" pintype="unspecified"/>
+    </net>
+    <net code="173" name="unconnected-(U8-Pad7)">
+      <node ref="U8" pin="7" pinfunction="RT/CT" pintype="unspecified"/>
+    </net>
+    <net code="174" name="unconnected-(U8-Pad8)">
+      <node ref="U8" pin="8" pinfunction="POWERGROUND" pintype="power_in"/>
+    </net>
+    <net code="175" name="unconnected-(U8-Pad9)">
+      <node ref="U8" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="176" name="unconnected-(U8-Pad10)">
+      <node ref="U8" pin="10" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="177" name="unconnected-(U8-Pad11)">
+      <node ref="U8" pin="11" pinfunction="VC" pintype="power_in"/>
+    </net>
+    <net code="178" name="unconnected-(U8-Pad12)">
+      <node ref="U8" pin="12" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="179" name="unconnected-(U8-Pad13)">
+      <node ref="U8" pin="13" pinfunction="NC" pintype="unspecified"/>
+    </net>
+    <net code="180" name="unconnected-(U8-Pad14)">
+      <node ref="U8" pin="14" pinfunction="REF" pintype="power_in"/>
+    </net>
+    <net code="181" name="unconnected-(U10-Pad1)">
+      <node ref="U10" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="182" name="unconnected-(U10-Pad2)">
+      <node ref="U10" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="183" name="unconnected-(U10-Pad3)">
+      <node ref="U10" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="184" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="IC" pintype="unspecified"/>
+    </net>
+    <net code="185" name="unconnected-(U10-Pad5)">
+      <node ref="U10" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="186" name="unconnected-(U10-Pad6)">
+      <node ref="U10" pin="6" pinfunction="SS" pintype="input"/>
+    </net>
+    <net code="187" name="unconnected-(U10-Pad7)">
+      <node ref="U10" pin="7" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="188" name="unconnected-(U10-Pad8)">
+      <node ref="U10" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="189" name="unconnected-(U10-Pad9)">
+      <node ref="U10" pin="9" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="190" name="unconnected-(U10-Pad10)">
+      <node ref="U10" pin="10" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="191" name="unconnected-(U10-Pad11)">
+      <node ref="U10" pin="11" pinfunction="EP" pintype="unspecified"/>
+    </net>
+    <net code="192" name="unconnected-(U11-Pad1)">
+      <node ref="U11" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="193" name="unconnected-(U11-Pad1)_1">
+      <node ref="U11" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="194" name="unconnected-(U11-Pad1)_2">
+      <node ref="U11" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="195" name="unconnected-(U11-Pad1)_3">
+      <node ref="U11" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="196" name="unconnected-(U11-Pad5)">
+      <node ref="U11" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="197" name="unconnected-(U11-Pad5)_1">
+      <node ref="U11" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="198" name="unconnected-(U11-Pad5)_2">
+      <node ref="U11" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="199" name="unconnected-(U11-Pad5)_3">
+      <node ref="U11" pin="5" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="200" name="unconnected-(U12-Pad1)">
+      <node ref="U12" pin="1" pinfunction="ACN" pintype="input"/>
+    </net>
+    <net code="201" name="unconnected-(U12-Pad2)">
+      <node ref="U12" pin="2" pinfunction="ACP" pintype="input"/>
+    </net>
+    <net code="202" name="unconnected-(U12-Pad3)">
+      <node ref="U12" pin="3" pinfunction="CMSRC" pintype="input"/>
+    </net>
+    <net code="203" name="unconnected-(U12-Pad4)">
+      <node ref="U12" pin="4" pinfunction="ACDRV" pintype="input"/>
+    </net>
+    <net code="204" name="unconnected-(U12-Pad5)">
+      <node ref="U12" pin="5" pinfunction="ACOK" pintype="output"/>
+    </net>
+    <net code="205" name="unconnected-(U12-Pad6)">
+      <node ref="U12" pin="6" pinfunction="ACDET" pintype="input"/>
+    </net>
+    <net code="206" name="unconnected-(U12-Pad7)">
+      <node ref="U12" pin="7" pinfunction="IOUT" pintype="output"/>
+    </net>
+    <net code="207" name="unconnected-(U12-Pad8)">
+      <node ref="U12" pin="8" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="208" name="unconnected-(U12-Pad9)">
+      <node ref="U12" pin="9" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="209" name="unconnected-(U12-Pad10)">
+      <node ref="U12" pin="10" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="210" name="unconnected-(U12-Pad11)">
+      <node ref="U12" pin="11" pinfunction="BATDRV" pintype="output"/>
+    </net>
+    <net code="211" name="unconnected-(U12-Pad12)">
+      <node ref="U12" pin="12" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="212" name="unconnected-(U12-Pad13)">
+      <node ref="U12" pin="13" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="213" name="unconnected-(U12-Pad14)">
+      <node ref="U12" pin="14" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="214" name="unconnected-(U12-Pad15)">
+      <node ref="U12" pin="15" pinfunction="LODRV" pintype="output"/>
+    </net>
+    <net code="215" name="unconnected-(U12-Pad16)">
+      <node ref="U12" pin="16" pinfunction="REGN" pintype="output"/>
+    </net>
+    <net code="216" name="unconnected-(U12-Pad17)">
+      <node ref="U12" pin="17" pinfunction="BTST" pintype="power_in"/>
+    </net>
+    <net code="217" name="unconnected-(U12-Pad18)">
+      <node ref="U12" pin="18" pinfunction="HIDRV" pintype="output"/>
+    </net>
+    <net code="218" name="unconnected-(U12-Pad19)">
+      <node ref="U12" pin="19" pinfunction="PHASE" pintype="power_in"/>
+    </net>
+    <net code="219" name="unconnected-(U12-Pad20)">
+      <node ref="U12" pin="20" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="220" name="unconnected-(U12-Pad21)">
+      <node ref="U12" pin="21" pinfunction="EPAD" pintype="power_in"/>
     </net>
   </nets>
 </export>

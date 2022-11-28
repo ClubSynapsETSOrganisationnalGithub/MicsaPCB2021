@@ -600,24 +600,12 @@
       "Probes schematic"
     ],
     [
-      "2a30e964-7972-42bf-ae62-0840c1ea0d25",
-      "TPS25741ARSMR"
+      "e3398903-1e17-42d9-8dd6-50170fbfa3af",
+      "Battery Charging Circuit and protection"
     ],
     [
-      "35769dbd-9a54-44ca-9d80-67622c8029c9",
-      "TL3845BDR"
-    ],
-    [
-      "1908bf63-3c4a-4986-9c9c-298c531e6609",
-      "MAX15027"
-    ],
-    [
-      "4197fd6e-d0dc-4cad-a61b-00b708d61f8e",
-      "TVS2201DRBR"
-    ],
-    [
-      "8859959c-fd90-4c08-9c36-a742ed7339e5",
-      "BQ24725RGRR"
+      "00a66a66-d0d6-4803-9572-43448a14f016",
+      "Voltage regulation 5V and 3V3"
     ]
   ],
   "text_variables": {}

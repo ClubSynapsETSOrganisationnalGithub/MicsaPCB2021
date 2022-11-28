@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-11-14")
+  )
+
   (lib_symbols
     (symbol "TVS2201:TVS2201DRBR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 11.43 0)
@@ -65,7 +69,7 @@
   (symbol (lib_id "TVS2201:TVS2201DRBR") (at 111.76 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f4dd8c97-1491-44aa-950e-0a57f7acb4d1)
-    (property "Reference" "U?" (id 0) (at 111.76 77.631 0))
+    (property "Reference" "U11" (id 0) (at 111.76 77.631 0))
     (property "Value" "TVS2201DRBR" (id 1) (at 111.76 80.1679 0))
     (property "Footprint" "TVS2201:IC_DRV8601DRBT" (id 2) (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -79,13 +83,13 @@
     (property "Supplier Link" "https://www.digikey.ca/en/products/detail/texas-instruments/TVS2201DRBR/10820251" (id 5) (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57e7))
-    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57e7))
-    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57e7))
-    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57e7))
-    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4858))
-    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4858))
-    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4858))
-    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4858))
+    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57f0))
+    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57f0))
+    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57f0))
+    (pin "1" (uuid 3a212e44-5c50-470d-a8bf-1580c21f57f0))
+    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4861))
+    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4861))
+    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4861))
+    (pin "5" (uuid 80939056-62c5-4d0a-9c1d-3bd0134e4861))
   )
 )
