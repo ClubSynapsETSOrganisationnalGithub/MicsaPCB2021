@@ -20,4 +20,6 @@
   (lib (name "PAM2306AYPKE")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_PAM2306AYPKE/KiCAD/2022-11-27_23-25-48/2022-11-27_23-25-48.lib")(options "")(descr ""))
   (lib (name "AP63203WU-7")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_AP63203WU-7/KiCAD/2022-11-28_00-50-20/2022-11-28_00-50-20.lib")(options "")(descr ""))
   (lib (name "AP63205WU-7")(type "Legacy")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/ul_AP63205WU-7/KiCAD/2022-11-28_01-19-18/2022-11-28_01-19-18.lib")(options "")(descr ""))
+  (lib (name "AD7490BCPZ")(type "KiCad")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/AD7490BCPZ/KiCAD/2023-02-13_04-39-58/2023-02-13_04-39-58.kicad_sym")(options "")(descr ""))
+  (lib (name "PI4IOE5V6416ZDEX")(type "KiCad")(uri "C:/SynapseDev/MicsaPCB2021/Librairies/PI4IOE5V6416ZDEX/KiCAD/2023-02-13_04-49-33/2023-02-13_04-49-33.kicad_sym")(options "")(descr ""))
 )
