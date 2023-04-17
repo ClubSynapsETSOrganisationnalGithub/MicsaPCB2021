@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -150,7 +151,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -372,7 +374,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
@@ -386,10 +388,10 @@
         "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.025,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
@@ -398,136 +400,485 @@
         "microvia_diameter": 0.0125,
         "microvia_drill": 0.01,
         "name": "BGA",
-        "nets": [
-          "+1V1",
-          "/Connectors/CAN_BUS_CLK",
-          "/Connectors/CAN_BUS_OFF_ON",
-          "/Connectors/CAN_BUS_RX",
-          "/Connectors/CAN_BUS_TX",
-          "/Connectors/GPIO11",
-          "/Connectors/JTAG_MTCK",
-          "/Connectors/JTAG_MTDI",
-          "/Connectors/JTAG_MTDO",
-          "/Connectors/JTAG_MTMS",
-          "/Connectors/U0RXD",
-          "/Connectors/U0TXD",
-          "/Microcontroler/*INT",
-          "/Microcontroler/ADC1_CH0",
-          "/Microcontroler/ADC1_CH1",
-          "/Microcontroler/ADC2_CH1",
-          "/Microcontroler/CHIP_BOOT",
-          "/Microcontroler/CHIP_PU",
-          "/Microcontroler/DAC_1",
-          "/Microcontroler/DAC_2",
-          "/Microcontroler/FSUS",
-          "/Microcontroler/GPIO46",
-          "/Microcontroler/I2CEXT0_SCL_out",
-          "/Microcontroler/LED_PMIC",
-          "/Microcontroler/LNA_IN",
-          "/Microcontroler/SPI3_CLK",
-          "/Microcontroler/SPI3_CS0",
-          "/Microcontroler/SPI3_CS1",
-          "/Microcontroler/SPI3_CS2",
-          "/Microcontroler/SPI3_CS3",
-          "/Microcontroler/SPI3_MISO",
-          "/Microcontroler/SPI3_MOSI",
-          "/Microcontroler/SPICLK",
-          "/Microcontroler/SPICS0",
-          "/Microcontroler/SPICS1",
-          "/Microcontroler/SPID",
-          "/Microcontroler/SPIHD",
-          "/Microcontroler/SPIHOLD",
-          "/Microcontroler/SPIQ",
-          "/Microcontroler/SPIWP",
-          "/Microcontroler/SPI_CS3",
-          "/Microcontroler/USB_D+",
-          "/Microcontroler/USB_D-",
-          "/Microcontroler/VDD3P3",
-          "/Microcontroler/VDD_SPI",
-          "/Microcontroler/XIN",
-          "/Microcontroler/XOUT",
-          "/Microcontroler/XTAL_32K_N",
-          "/Microcontroler/XTAL_32K_P",
-          "/Microcontroler/XTAL_P",
-          "/Power Supply/CC1",
-          "/Power Supply/GHGIN",
-          "/Power Supply/LX",
-          "/Power Supply/RX1+",
-          "/Power Supply/RX1-",
-          "/Power Supply/RX2+",
-          "/Power Supply/RX2-",
-          "/Power Supply/SBUS1",
-          "/Power Supply/SBUS2",
-          "/Power Supply/TPU",
-          "/Power Supply/TX1+",
-          "/Power Supply/TX1-",
-          "/Power Supply/TX2+",
-          "/Power Supply/TX2-",
-          "/Power Supply/VCONN",
-          "/Power Supply/V_BAT",
-          "/Probes schematic/SPI_CS_ADC0",
-          "/Probes schematic/SPI_CS_ADC1",
-          "/Probes schematic/SPI_CS_ADC2",
-          "/Probes schematic/SPI_CS_ADC3",
-          "/Probes schematic/SPI_CS_ADC4",
-          "/Probes schematic/SPI_CS_ADC5",
-          "/Probes schematic/SPI_CS_ADC6",
-          "/Probes schematic/SPI_CS_ADC7",
-          "/Probes schematic/SPI_OUT_ADC0",
-          "/Probes schematic/SPI_OUT_ADC1",
-          "/Probes schematic/SPI_OUT_ADC2",
-          "/Probes schematic/SPI_OUT_ADC3",
-          "/Probes schematic/SPI_OUT_ADC4",
-          "/Probes schematic/SPI_OUT_ADC5",
-          "/Probes schematic/SPI_OUT_ADC6",
-          "/Probes schematic/SPI_OUT_ADC7",
-          "GNDREF",
-          "Net-(AE2-Pad2)",
-          "Net-(C40-Pad2)",
-          "Net-(C42-Pad2)",
-          "Net-(C43-Pad2)",
-          "Net-(C44-Pad2)",
-          "Net-(C45-Pad1)",
-          "Net-(C46-Pad1)",
-          "Net-(D2-Pad1)",
-          "Net-(IC2-Pad31)",
-          "Net-(IC2-Pad32)",
-          "Net-(IC2-Pad34)",
-          "Net-(IC2-Pad35)",
-          "Net-(IC2-Pad36)",
-          "Net-(IC2-Pad48)",
-          "Net-(J1-PadS1)",
-          "Net-(Q2-Pad3)",
-          "Net-(R11-Pad1)",
-          "Net-(R2-Pad2)",
-          "VAA",
-          "unconnected-(C48-Pad2)",
-          "unconnected-(C50-Pad2)",
-          "unconnected-(C9-Pad2)",
-          "unconnected-(J2-Pad7)",
-          "unconnected-(J2-Pad8)",
-          "unconnected-(U1-PadA1)",
-          "unconnected-(U1-PadA2)",
-          "unconnected-(U1-PadB1)",
-          "unconnected-(U1-PadE1)",
-          "unconnected-(U1-PadE5)",
-          "unconnected-(U1-PadF1)",
-          "unconnected-(U1-PadF2)",
-          "unconnected-(U1-PadF3)",
-          "unconnected-(U1-PadF4)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.05,
         "via_diameter": 0.025,
         "via_drill": 0.0125,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "BGA",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/CAN_BUS_CLK"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/CAN_BUS_OFF_ON"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/CAN_BUS_RX"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/CAN_BUS_TX"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/GPIO11"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/JTAG_MTCK"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/JTAG_MTDI"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/JTAG_MTDO"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/JTAG_MTMS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/U0RXD"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Connectors/U0TXD"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/*INT"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/ADC1_CH0"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/ADC1_CH1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/ADC2_CH1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/CHIP_BOOT"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/CHIP_PU"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/DAC_1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/DAC_2"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/FSUS"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/GPIO46"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/I2CEXT0_SCL_out"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/LED_PMIC"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/LNA_IN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_CLK"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_CS0"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_CS1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_CS2"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_CS3"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_MISO"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI3_MOSI"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPICLK"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPICS0"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPICS1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPID"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPIHD"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPIHOLD"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPIQ"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPIWP"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/SPI_CS3"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/USB_D+"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/USB_D-"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/VDD3P3"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/VDD_SPI"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/XIN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/XOUT"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/XTAL_32K_N"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/XTAL_32K_P"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Microcontroler/XTAL_P"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/CC1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/GHGIN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/LX"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/RX1+"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/RX1-"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/RX2+"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/RX2-"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/SBUS1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/SBUS2"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/TPU"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/TX1+"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/TX1-"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/TX2+"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/TX2-"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/VCONN"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Power Supply/V_BAT"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC0"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC2"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC3"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC4"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC5"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC6"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_CS_ADC7"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC0"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC1"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC2"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC3"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC4"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC5"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC6"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "/Probes schematic/SPI_OUT_ADC7"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "GNDREF"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(AE2-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C40-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C42-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C43-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C44-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C45-Pad1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(C46-Pad1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(D2-Pad1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad31)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad32)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad34)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad35)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad36)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(IC2-Pad48)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(J1-PadS1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(Q2-Pad3)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(R11-Pad1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "Net-(R2-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "VAA"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(C48-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(C50-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(C9-Pad2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(J2-Pad7)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(J2-Pad8)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadA1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadA2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadB1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadE1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadE5)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadF1)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadF2)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadF3)"
+      },
+      {
+        "netclass": "BGA",
+        "pattern": "unconnected-(U1-PadF4)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
