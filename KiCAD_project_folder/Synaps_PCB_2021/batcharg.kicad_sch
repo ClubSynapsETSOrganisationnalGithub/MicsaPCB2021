@@ -1306,16 +1306,22 @@
   (symbol (lib_id "Device:C") (at 154.94 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0935e355-0802-413d-994e-bdd60067e4bc)
-    (property "Reference" "C?" (at 156.21 140.97 0)
+    (property "Reference" "C39" (at 156.21 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 156.21 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 155.9052 147.32 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 155.9052 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 143.51 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" (at 154.94 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CC1206KRX7R9BB104" (at 154.94 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913" (at 154.94 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 621838f5-5bd3-49ef-be4a-a1543ac0d880))
@@ -1323,7 +1329,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "C?") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -1335,7 +1341,7 @@
     (property "Reference" "R9" (at 85.09 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R_US" (at 85.09 55.88 90)
+    (property "Value" "10K" (at 85.09 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 84.836 53.086 90)
@@ -1415,10 +1421,16 @@
     (property "Value" "1uF" (at 58.42 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 65.7352 59.69 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 65.7352 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 64.77 55.88 0)
+    (property "Datasheet" "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&cvid=20200508021757000000" (at 64.77 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "GCM31MR71H105KA55L" (at 64.77 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GCM31MR71H105KA55L/1641669" (at 64.77 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2d80cf88-fb9d-486b-9ca4-8367c076f1bd))
@@ -1512,7 +1524,7 @@
   (symbol (lib_id "power:GNDREF") (at 163.83 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ee99984-4c0b-41c7-ab42-3f9ede90767d)
-    (property "Reference" "#PWR?" (at 163.83 111.76 0)
+    (property "Reference" "#PWR0111" (at 163.83 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 163.83 110.49 0)
@@ -1528,7 +1540,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -1565,13 +1577,19 @@
     (property "Reference" "R5" (at 74.93 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R_US" (at 74.93 55.88 90)
+    (property "Value" "1k NTC" (at 74.93 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.676 53.086 90)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 74.676 53.086 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 52.07 0)
+    (property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/50/db/ntc/NTC_SMD_Standard_series_0805.pdf" (at 74.93 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "B57421V2102J062" (at 74.93 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.ca/fr/products/detail/epcos-tdk-electronics/B57421V2102J062/739862" (at 74.93 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3b8e971e-fc93-4514-824f-43754586afc7))
@@ -1588,16 +1606,22 @@
   (symbol (lib_id "Device:C") (at 154.94 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72a1d369-435a-4458-bb21-ea965331f83c)
-    (property "Reference" "C?" (at 156.21 107.95 0)
+    (property "Reference" "C37" (at 156.21 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 156.21 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 155.9052 114.3 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 155.9052 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 110.49 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" (at 154.94 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CC1206KRX7R9BB104" (at 154.94 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913" (at 154.94 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ccf2a2e3-6d1e-4956-9708-0b43c9f2417f))
@@ -1605,7 +1629,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "C?") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -1759,7 +1783,7 @@
   (symbol (lib_id "Device:R_US") (at 147.32 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9090b49d-002e-4b07-8622-24021b283426)
-    (property "Reference" "R?" (at 147.32 137.16 90)
+    (property "Reference" "R22" (at 147.32 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1000" (at 147.32 143.51 90)
@@ -1776,7 +1800,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "R?") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1811,7 +1835,7 @@
   (symbol (lib_id "power:GNDREF") (at 198.12 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 971edf83-a471-4d0e-88e3-28c096bf3171)
-    (property "Reference" "#PWR?" (at 198.12 147.32 0)
+    (property "Reference" "#PWR0109" (at 198.12 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 198.12 146.05 0)
@@ -1827,7 +1851,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1862,7 +1886,7 @@
   (symbol (lib_id "power:GNDREF") (at 135.89 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6c292e4-913a-4f29-9d9a-4aab237ce392)
-    (property "Reference" "#PWR?" (at 135.89 158.75 0)
+    (property "Reference" "#PWR0110" (at 135.89 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 135.89 157.48 0)
@@ -1878,7 +1902,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -1887,16 +1911,22 @@
   (symbol (lib_id "Device:C") (at 154.94 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6b65115-5351-4842-a3ca-63646c633a5f)
-    (property "Reference" "C?" (at 156.21 130.81 0)
+    (property "Reference" "C38" (at 156.21 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 156.21 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 155.9052 137.16 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 155.9052 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 133.35 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_20.pdf" (at 154.94 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CC1206KRX7R9BB104" (at 154.94 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "https://www.digikey.ca/en/products/detail/yageo/CC1206KRX7R9BB104/302913" (at 154.94 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2a4030e7-7962-45db-8595-5a4e9db0f5bb))
@@ -1904,7 +1934,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "C?") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -1913,7 +1943,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 229.87 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8067b29-2b0b-4120-b432-5b1b015a7e71)
-    (property "Reference" "TP?" (at 232.41 101.0919 0)
+    (property "Reference" "TP5" (at 232.41 101.0919 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Batt_plus" (at 232.41 103.6319 0)
@@ -1929,7 +1959,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "TP?") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1938,7 +1968,7 @@
   (symbol (lib_id "Device:R_US") (at 148.59 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2d04fc9-2a19-4f0e-a3d0-244ec96fd88c)
-    (property "Reference" "R?" (at 148.59 111.76 90)
+    (property "Reference" "R23" (at 148.59 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1000" (at 148.59 118.11 90)
@@ -1955,7 +1985,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "R?") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1964,7 +1994,7 @@
   (symbol (lib_id "Device:R_US") (at 147.32 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d85f32e8-19e3-4e73-9458-75349747a785)
-    (property "Reference" "R?" (at 147.32 127 90)
+    (property "Reference" "R21" (at 147.32 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1000" (at 147.32 133.35 90)
@@ -1981,7 +2011,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "R?") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1990,7 +2020,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 135.89 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d95628d4-1281-41df-af56-a2b7e5ca42ae)
-    (property "Reference" "BT?" (at 128.27 129.54 0)
+    (property "Reference" "BT4" (at 128.27 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Battery_Cell" (at 121.92 133.35 0)
@@ -2007,7 +2037,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "BT?") (unit 1)
+          (reference "BT4") (unit 1)
         )
       )
     )
@@ -2066,7 +2096,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 229.87 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e04d54a3-5ebc-48a0-96af-c4bf7e1ea497)
-    (property "Reference" "TP?" (at 232.41 146.5579 0)
+    (property "Reference" "TP6" (at 232.41 146.5579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Batt_minus" (at 232.41 149.0979 0)
@@ -2082,7 +2112,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "TP?") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -2117,7 +2147,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 135.89 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd4fb486-fe1c-49c5-8778-83918b635125)
-    (property "Reference" "BT?" (at 128.27 139.7 0)
+    (property "Reference" "BT5" (at 128.27 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Battery_Cell" (at 121.92 143.51 0)
@@ -2134,7 +2164,7 @@
     (instances
       (project "Synaps_PCB_2021"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-0000604af200/e3398903-1e17-42d9-8dd6-50170fbfa3af"
-          (reference "BT?") (unit 1)
+          (reference "BT5") (unit 1)
         )
       )
     )
